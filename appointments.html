@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Practice - Appointments</title>
+    <link rel="stylesheet" href="appointments.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact1.html">Contact</a></li>
+            <li><a href="appointments.html">Appointments</a></li>
+            <li><a href="staff.html">Staff Area</a></li>
+        </ul>
+    </nav>
+
+    <!-- Appointments Page Content -->
+    <section id="appointments">
+        <h1>Book an Appointment</h1>
+        <form action="book_appointment.html" method="post">
+            <label for="patient_name">Name:</label>
+            <input type="text" id="patient_name" name="patient_name" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit">Book</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Dental Practice. All rights reserved.</p>
+    </footer>
+</body>
+</html>
